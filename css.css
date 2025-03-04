@@ -1,0 +1,446 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #FFF2F2;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    
+}
+
+
+
+
+
+
+
+
+.main a{
+    
+    text-decoration: none;
+    color: rgb(14, 65, 195);
+    font-weight: 50;
+    padding-right: 8px;
+    margin-right: 60px;
+}
+
+.main a:hover{
+    color: white;
+    transform: scale(1.4em);
+    transition: 0.7s ease;
+    font-size: 1.5em;
+}
+
+
+nav{
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+nav a{
+    position: relative;
+    display: inline-block;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+
+nav span{
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 120px;
+    height: 150%;
+    background: linear-gradient(45deg, #379096, #33fffc);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 1px;
+}
+
+nav a:nth-child(2):hover~span{
+    left: 170px;
+}
+
+nav a:nth-child(3):hover~span{
+    left: 344px;
+}
+
+nav a:nth-child(4):hover~span{
+    left: 500px;
+}
+
+nav a:nth-child(5):hover~span{
+    left: 640px;
+}
+
+
+
+
+
+
+
+.logo{
+    text-decoration: none;
+    color: rgb(36, 36, 203);
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+
+
+.content{
+    background: url(img/7-Best-Drag-and-Drop-Website-Builders-850x435.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.con{
+    padding-left: 30px;
+    width: 25em;
+    height: 25em;
+    width: 28em;
+    text-align: left;
+    margin-left: 10em;
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background-color: var(--secondary-color);
+}
+
+.con h1{
+    
+    padding-bottom: 10px;
+    padding-left: 100px;
+    color:rgb(178, 53, 53);
+}
+
+
+.langu{
+    padding-top: 30px;
+    
+
+}
+
+.langu a:hover{
+    color: rgb(135, 235, 163);
+    transform: scale(1.4em);
+    transition: 0.7s ease;
+    font-size: 1.5em;
+}
+
+.lapr{
+    
+    text-decoration: none;
+    color:rgb(230, 230, 230);
+    padding-left: 150px;
+
+    
+}
+
+.content-btn{
+    color: white;
+    background-color: rgb(133, 64, 198);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 1.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    
+}
+
+.content-btn:hover{
+    background-color: rgb(102, 39, 122);
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+
+.title{
+    text-align:center;
+    padding-top: 60px;
+}
+
+.title h1{
+    padding-bottom: 20px;
+    color: blue;
+}
+
+.content3{
+    justify-content: center;
+    display: flex;
+}
+
+.apps{
+    background: #A9B5DF;
+}
+
+
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 15px;
+}
+
+.card :hover{
+    transform: scale(1.1);
+}
+
+.photo1{
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+
+.photo5{
+    padding-left: 40px;
+    justify-content: center;
+    width: 13em;
+    height: 10em;
+}
+
+.photo2{
+    color: rgb(42, 42, 210);
+    font-size: 8em;
+    text-align: center;
+}
+
+.photo3{
+    font-size: 8em;
+    text-align: center;
+}
+
+.photo33{
+    font-size: 8em;
+    text-align: center;
+    color: green;
+}
+
+.info{
+    text-align: center;
+}
+
+.info a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.info a:hover{
+    color: red;
+    transform: scale(1.4em);
+    transition: 0.7s ease;
+    font-size: 1.5em;
+}
+
+
+.courses{
+    background: #455599;
+}
+
+
+.title2{
+    text-align:center;
+    padding-top: 60px;
+}
+
+.title2 h1{
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+
+
+
+.content-card{
+    background-color: white;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.content-card:hover{
+    transform: scale(1.1);
+}
+
+.content-card:hover .content-img{
+    opacity: 0.9;
+}
+
+.content-img img{
+    width: 100%;
+}
+
+.content-info{
+    padding: 1em;
+}
+
+.content-info a{
+    text-decoration: none;
+    color: rgb(176, 54, 54);
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #242959;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color: #f4d53a;
+}
+
+.footer-icon a{
+    font-size: 1.7em;
+    padding-right: 20px;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav a{
+        font-size: 15px;
+        padding-left: 0.5em;
+    }
+
+    logo{
+        text-align: center;
+    }
+
+    nav span{
+        height: 40px;
+        text-align: center;
+    }
+
+    .con {
+        width: 100%;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+        
+    }
+    .main a{
+        padding-left: 2px;
+    }
+    .title{
+        font-size: 1.2em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    
+    
+}
+@media(max-width:641px){
+     body{
+    font-size: 12px;
+    
+    }
+    
+}
+
+@media(max-width: 486px){
+    header{
+        padding: 12px 20px;
+    }
+
+
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
